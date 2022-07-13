@@ -15,7 +15,7 @@ class Application(tk.Tk):
 
     def __init__(self):
         super().__init__()
-        self.title("Image text extraction")    #图片文本提取
+        self.title("Image text extraction")
 
         pt.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
         self.img_path = tk.StringVar()
